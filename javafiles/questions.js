@@ -38,28 +38,4 @@ var questions = [{
                 ans3: "<heading>",
                 ans4: "<h1>",
                 correctans: "3"
-
-        }]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}]
