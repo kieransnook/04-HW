@@ -66,44 +66,6 @@ return;
 }
 
 
-// function loadNextQuestion(){
-//   var userChoice = document.querySelector('input[type=radio]:checked');
-//   if(!userChoice){
-//       alert("Please select answer.");
-//       return;
-//   }
-//       var answer = userChoice.value;
-//  if(questions[currentQ].answer === answer){
-//     score += 1;
-//  }}
-// function loadNextQuestion(){
-// questionEl.textContent = questions[questionIndex+1].question;
-//   ans1.textContent = questions[questionIndex+1].ans1;
-//   ans2.textContent = questions[questionIndex+1].ans2;
-//   ans3.textContent = questions[questionIndex+1].ans3;
-//   ans4.textContent = questions[questionIndex+1].ans4;
-// };
-// function loadNextQuestion(){
-// questionEl.textContent = questions[questionIndex+2].question;
-//     ans1.textContent = questions[questionIndex+2].ans1;
-//     ans2.textContent = questions[questionIndex+2].ans2;
-//     ans3.textContent = questions[questionIndex+2].ans3;
-//     ans4.textContent = questions[questionIndex+2].ans4;
-//   };
-// function loadNextQuestion(){
-// questionEl.textContent = questions[questionIndex+3].question;
-//       ans1.textContent = questions[questionIndex+3].ans1;
-//       ans2.textContent = questions[questionIndex+3].ans2;
-//       ans3.textContent = questions[questionIndex+3].ans3;
-//       ans4.textContent = questions[questionIndex+3].ans4;
-//     };
-// function loadNextQuestion(){
-//   questionEl.textContent = questions[questionIndex+4].question;
-//     ans1.textContent = questions[questionIndex+4].ans1;
-//     ans2.textContent = questions[questionIndex+4].ans2;
-//     ans3.textContent = questions[questionIndex+4].ans3;
-//     ans4.textContent = questions[questionIndex+4].ans4;
-//   };
 
 //Stopwatch
 
