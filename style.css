@@ -1,6 +1,13 @@
 .quiz-container {
     text-align: center;
+    background-color: aqua;
+    width: 500px;
+    height: 250px;
 }
+#stopwatch {
+    text-align: center;
+}
+
 #h1 {
     text-align: center;
     color: rrgb(6, 123, 233);
@@ -15,8 +22,12 @@ h1 {
 section {
     color: purple;
     background-color: aqua;
-    text-align: center;}
-.button {
-    color: green;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: large;
 
-}  
+
+  
+
+}
