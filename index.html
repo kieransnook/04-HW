@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Coding Quiz</h1>
+    <h1>Coding Quiz</h1> 
 
     <section id="stopWatch">
       Timer
@@ -52,8 +52,8 @@
       <button id="start" onclick="clock();loadquestion()">
         Start
       </button>
-      <button id="Next" onclick="loadNextQuestion()">Next</button><br/>
-      <button id="submit"    onclick="clearInterval(myTimer);disableButton()"  >Finish</button>
+      <button id="Next" onclick="nextButtonClick()">Next</button><br/>
+      <button id="submit"    onclick="clearInterval();alert('Your score is ' + c)"  >Finish</button>
       <form
         style="display: inline"
         action="highscores.html"
@@ -63,7 +63,7 @@
       </form>
     </div>
 
-    <script src="javafiles/questions.js" async defer></script>
+    <script src="javafiles/questions.js"></script>
     <script src="javafiles/script.js"></script>
   </body>
 </html>

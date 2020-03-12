@@ -14,7 +14,7 @@ var startBtn = document.getElementById("start");
 var subBtn = document.getElementById("submit");
 var result = document.getElementById("result");
 
-// var totquestions = questions.length;
+var totquestions = questions.length;
 
 function loadquestion() {
   document.getElementById("start").disabled = true;
@@ -26,14 +26,10 @@ function loadquestion() {
   ans3.textContent = questions[questionIndex].ans3;
   ans4.textContent = questions[questionIndex].ans4;
 }
-function loadNextQuestion() {
-  questionEl.textContent = questions[questionIndex++];
-  questionEl.textContent = questions[questionIndex].question;
-  ans1.textContent = questions[questionIndex].ans1;
-  ans2.textContent = questions[questionIndex].ans2;
-  ans3.textContent = questions[questionIndex].ans3;
-  ans4.textContent = questions[questionIndex].ans4;
 
+function nextButtonClick()
+{
+  //check answer
   var userChoice = document.querySelector(
     "input[type=radio]:checked"
   );
@@ -44,17 +40,31 @@ function loadNextQuestion() {
   var answer = userChoice.value;
   if (questions[currentQ].correctans === answer) {
     alert("congrats you got it right!");
+  } else {
+      userChoice.checked = false;
+      c -= 15;
   }
-  userChoice.checked = false;
-  currentQ++;
-  // if (currentQ == totquestions){
-  //     startBtn.style.visibility='hidden';
-  //     nextBtn.style.visibility='hidden';
-  //     quizContainer.style.display="none";
-  //     result.style.display="";
-  //     result.textContent = score;
-  return;
+
+
+questionIndex++;
+if (questionIndex === totquestions)
+{
+  
+ alert("Your score is " + c)
+
+  //disable next button
+  //record score
+  //enable finish button
 }
+else {
+  loadquestion();
+}
+
+
+return;
+
+}
+
 
 // function loadNextQuestion(){
 //   var userChoice = document.querySelector('input[type=radio]:checked');

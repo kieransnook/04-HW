@@ -17,8 +17,7 @@ var questions =
     correctans: "2"
   },
   {
-    question:
-      ".________________ describes how certain HTML elements are displayed on a page",
+    question:"________________ describes how certain HTML elements are displayed on a page",
     ans1: "Cascading Style Sheets",
     ans2: "Computer Screen Style",
     ans3: "Crazy Html Style",
@@ -28,17 +27,17 @@ var questions =
   {
     question: "Which HTML attribute is used to define inline styles?",
     ans1: "font",
-    ans2: "class",
-    ans3: "styles",
+    ans2: "styles",
+    ans3: "class",
     ans4: "style",
     correctans: "3"
   },
   {
     question: "Correct HTML tag for the largest heading is:",
     ans1: "<head>",
-    ans2: "<h6>",
+    ans2: "<h1>",
     ans3: "<heading>",
-    ans4: "<h1>",
+    ans4: "<h4>",
     correctans: "4"
   }
 ];
